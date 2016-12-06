@@ -69,7 +69,7 @@ network = fully_connected(network, 2, activation='softmax')
 network = regression(network, optimizer='adam',
                      loss='categorical_crossentropy',
                      learning_rate=0.001)
-
+#  zmiana testowa
 # Wrap the network in a model object
 model = tflearn.DNN(network, tensorboard_verbose=0, checkpoint_path='bird-classifier.tfl.ckpt')
 
