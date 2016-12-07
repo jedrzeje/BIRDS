@@ -21,7 +21,7 @@ X, Y, X_test, Y_test = pickle.load(open("G://data_birds/data/full_dataset.pkl", 
 
 # Shuffle the data
 X, Y = shuffle(X, Y)
-
+#zmiana
 # Make sure the data is normalized
 img_prep = ImagePreprocessing()
 img_prep.add_featurewise_zero_center()
